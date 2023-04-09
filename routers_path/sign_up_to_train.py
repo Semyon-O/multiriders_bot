@@ -1,8 +1,7 @@
 from aiogram import Router
 import aiogram.filters as filter
-from aiogram.filters import Text
 from aiogram.fsm.context import FSMContext
-from aiogram.types import Message, ReplyKeyboardRemove, CallbackQuery
+from aiogram.types import CallbackQuery
 import states as st
 import func_tools as ft
 

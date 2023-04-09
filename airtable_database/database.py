@@ -115,8 +115,3 @@ class Record:
         return self.table.create_record(fields)
 
 
-# base_token = "appSVs5xbu4XNORWa"
-# api_token = "pat5TaoTyFnsmtbWC.d4e2baf45c8132ef570ff6a5b3d1b986257adc80498c07fc72773090a5b6c67a"
-# result = Client(base_token, api_token).get_client_by_id_user(2110486549)
-# all_rec = Record(base_token, api_token).get_records_by_client_id(2110486549)
-# print(all_rec)
